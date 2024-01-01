@@ -1,13 +1,20 @@
 # Billionaires - What it takes to be one
 
+Brief Description of the Project
+- I have chosen this fun project to analyze the path of a billionaire and what background factors are common among all the billionaires since 1997 up to 2003.
+- My objective is to produce a visualization in Tableau with some interesting information and insights
+- At the moment I am cleaning this data up for analysis purposes. This repo will be updated as and when I progress in this project
+
+
+**Stage 1: Data Gathering and Cleansing**
+
 Key Activities
+
 1. Public Data Cleaning & Preparing for Data Visualization
 2. Use of Wikipedia API for data enrichment
 3. Use of OpenAI API to clean the unstructured information gathered from Wikipedia into structured data for better analysis
 
 What it takes to be a billionaire - Graphical visualization project
-
-
 
 1. Initial Dataset
    - Initial Dataset taken from Forbes Billionaire Evolution - https://www.gigasheet.com/sample-data/forbes-billionaires-evolution-1997-2023
@@ -30,4 +37,5 @@ What it takes to be a billionaire - Graphical visualization project
    - Output file - [BillionairesWikiEnriched](/BillionairesWikiEnriched.csv)
   
 4. Cleaning - Step 3: [GPT Enrichment](/BillionairesGPTEnriched.csv)
-   - In
+   - Objectives: Understand the data taken from Wikipedia and categorize them for quantitative analysis
+      - 
