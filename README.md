@@ -1,9 +1,9 @@
-# Billionaires - What it takes to be one
+# What it takes to be a Billionaire
 
 Brief Description of the Project
-- I have chosen this fun project to analyze the path of a billionaire and what background factors are common among all the billionaires since 1997 up to 2003.
-- My objective is to produce a visualization in Tableau with some interesting information and insights
-- At the moment I am cleaning this data up for analysis purposes. This repo will be updated as and when I progress in this project
+- This engaging project aims to analyze the common background factors of billionaires from 1997 to 2003.
+- The goal is to create insightful visualizations in Tableau, highlighting key patterns and information.
+- Currently, I'm in the process of data cleaning and preparation for analysis. Updates on this project will be posted regularly.
 
 
 **Stage 1: Data Gathering and Cleansing**
