@@ -18,10 +18,10 @@ Key Activities
       - Converting unstructured Wikipedia data into a format suitable for analysis
 
 
-What it takes to be a billionaire - Graphical visualization project
+Steps to Data Gathering and Cleansing
 
 1. Initial Dataset
-   - Initial Dataset taken from Forbes Billionaire Evolution - https://www.gigasheet.com/sample-data/forbes-billionaires-evolution-1997-2023
+   -Sourced from Forbes [Billionaire Evolution 1997 - 2023](https://www.gigasheet.com/sample-data/forbes-billionaires-evolution-1997-2023)
 
 2. Cleaning - Step 1: [Initial Preparation](/billionaireslistclean.py)
    - Initial Data cleansing achieved the following objectives:
