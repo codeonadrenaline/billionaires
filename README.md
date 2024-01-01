@@ -6,3 +6,8 @@ Key Activities
 3. Use of OpenAI API to clean the unstructured information gathered from Wikipedia into structured data for better analysis
 
 What it takes to be a billionaire - Graphical visualization project
+
+
+
+1. Initial Dataset
+   - Initial Dataset taken from Forbes Billionaire Evolution - https://www.gigasheet.com/sample-data/forbes-billionaires-evolution-1997-2023
