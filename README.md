@@ -10,9 +10,13 @@ Brief Description of the Project
 
 Key Activities
 
-1. Public Data Cleaning & Preparing for Data Visualization
-2. Use of Wikipedia API for data enrichment
-3. Use of OpenAI API to clean the unstructured information gathered from Wikipedia into structured data for better analysis
+   Public Data Cleaning & Preparation for Data Visualization
+_   Focusing on making the data visualization-ready._
+   Using the Wikipedia API for Data Enrichment
+ _  Enhancing the dataset with additional details from Wikipedia._
+   Leveraging OpenAI API to Structure Unstructured Data
+_   Converting unstructured Wikipedia data into a format suitable for analysis._
+
 
 What it takes to be a billionaire - Graphical visualization project
 
