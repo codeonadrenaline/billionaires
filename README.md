@@ -24,23 +24,22 @@ Steps to Data Gathering and Cleansing
    -Sourced from Forbes [Billionaire Evolution 1997 - 2023](https://www.gigasheet.com/sample-data/forbes-billionaires-evolution-1997-2023)
 
 2. Cleaning - Step 1: Initial Preparation
-   - [Script - Initial Data Preparation](/billionaireslistclean.py)
-   - Achievements:
+   - [**Script** - Initial Data Preparation](/billionaireslistclean.py)
+   - **Achievements:**
          - Resolving data inconsistencies (e.g., Industry Names, Name Formats, Age, Birth Year)
          - Adding new classification columns: Age Category, First-Time Billionaire Status
          - Identifying and addressing missing data
-   - Output file - [BillionaireListCleaned.csv](/BillionaireListCleaned.csv)
+   - **Output file** [BillionaireListCleaned.csv](/BillionaireListCleaned.csv)
   
-4. Cleaning - Step 2: Initial Preparation
-   - Script: [Wikipedia Enrichment](/wikipedia_enrich.py)
-   -Intended Objectives: Gather information to find out the following:
-               - were they self-made or did they inherit? 
-               - what is their highest education background? 
-               - what is their country of birth? Only give the country name
-               - What got them to being a billionaire (entrepreneurship, investment, inheritance, althletics, media personality...etc)?
-   - Enrich each person's information using the Wikipedia API. Objectives achieved:
-      - Early Life, Career and Summary Sections Enriched via Wikipedia API
-   - Output file - [BillionairesWikiEnriched](/BillionairesWikiEnriched.csv)
+4. Cleaning - Step 2: Wikipedia Enrichment
+   - **Script:** [Wikipedia Enrichment](/wikipedia_enrich.py)
+   - **Goals:**
+         - Determine if billionaires are self-made or inherited wealth
+         - Ascertain highest education level and country of birth
+         - Identify the primary source of wealth (e.g., entrepreneurship, investment, inheritance)
+   - **Achievements:**
+         - Enhanced profiles with Early Life, Career, and Summary sections using Wikipedia API
+   - **Output file** - [BillionairesWikiEnriched](/BillionairesWikiEnriched.csv)
   
 5. Cleaning - Step 3: [GPT Enrichment](/BillionairesGPTEnriched.csv)
    - Objectives: Understand the data taken from Wikipedia and categorize them for quantitative analysis
