@@ -20,5 +20,14 @@ What it takes to be a billionaire - Graphical visualization project
    - Output file - [BillionaireListCleaned.csv](/BillionaireListCleaned.csv)
   
 3. Cleaning - Step 2: [Wikipedia Enrichment](/wikipedia_enrich.py)
+   -Intended Objectives: Gather information to find out the following:
+               - were they self-made or did they inherit? 
+               - what is their highest education background? 
+               - what is their country of birth? Only give the country name
+               - What got them to being a billionaire (entrepreneurship, investment, inheritance, althletics, media personality...etc)?
    - Enrich each person's information using the Wikipedia API. Objectives achieved:
-      - 
+      - Early Life, Career and Summary Sections Enriched via Wikipedia API
+   - Output file - [BillionairesWikiEnriched](/BillionairesWikiEnriched.csv)
+  
+4. Cleaning - Step 3: [GPT Enrichment](/BillionairesGPTEnriched.csv)
+   - In
