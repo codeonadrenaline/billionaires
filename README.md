@@ -16,3 +16,4 @@ What it takes to be a billionaire - Graphical visualization project
    - Initial Data cleansing achieved the following objectives:
       - Eliminate Data inconsistencies (Industry Names, Full Name format, Age, Birth Year)
       - Additional columns for classification: Age Category, First Time a Billionaire on Forbes?
+   - Output file - BillionaireListCleaned.csv
