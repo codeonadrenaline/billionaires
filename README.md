@@ -23,14 +23,16 @@ Steps to Data Gathering and Cleansing
 1. Initial Dataset
    -Sourced from Forbes [Billionaire Evolution 1997 - 2023](https://www.gigasheet.com/sample-data/forbes-billionaires-evolution-1997-2023)
 
-2. Cleaning - Step 1: [Initial Preparation](/billionaireslistclean.py)
-   - Initial Data cleansing achieved the following objectives:
-      - Eliminate Data inconsistencies (Industry Names, Full Name format, Age, Birth Year)
-      - Additional columns for classification: Age Category, First Time a Billionaire on Forbes?
-      - Identify blank / unavailable data
+2. Cleaning - Step 1: Initial Preparation
+   - [Script - Initial Data Preparation](/billionaireslistclean.py)
+   - Achievements:
+         - Resolving data inconsistencies (e.g., Industry Names, Name Formats, Age, Birth Year)
+         - Adding new classification columns: Age Category, First-Time Billionaire Status
+         - Identifying and addressing missing data
    - Output file - [BillionaireListCleaned.csv](/BillionaireListCleaned.csv)
   
-3. Cleaning - Step 2: [Wikipedia Enrichment](/wikipedia_enrich.py)
+4. Cleaning - Step 2: Initial Preparation
+   - Script: [Wikipedia Enrichment](/wikipedia_enrich.py)
    -Intended Objectives: Gather information to find out the following:
                - were they self-made or did they inherit? 
                - what is their highest education background? 
@@ -40,6 +42,6 @@ Steps to Data Gathering and Cleansing
       - Early Life, Career and Summary Sections Enriched via Wikipedia API
    - Output file - [BillionairesWikiEnriched](/BillionairesWikiEnriched.csv)
   
-4. Cleaning - Step 3: [GPT Enrichment](/BillionairesGPTEnriched.csv)
+5. Cleaning - Step 3: [GPT Enrichment](/BillionairesGPTEnriched.csv)
    - Objectives: Understand the data taken from Wikipedia and categorize them for quantitative analysis
       - 
