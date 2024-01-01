@@ -42,5 +42,13 @@ Steps to Data Gathering and Cleansing
    - **Output file** - [BillionairesWikiEnriched](/BillionairesWikiEnriched.csv)
   
 5. Cleaning - Step 3: [GPT Enrichment](/BillionairesGPTEnriched.csv)
-   - Objectives: Understand the data taken from Wikipedia and categorize them for quantitative analysis
-      - 
+   - **Script:** [OpenAI Enrichment](/gpt_enrich.py)
+   - **Goals**:
+      - Categorize the data taken from Wikipedia for quantitative analysis
+   - **Achievements**
+      - Using the OpenAI API, Classifed the data to have the following information in place
+        - are they self-made or did they inherit? answer options: “Self Made”, “Not Self Made”, “Unsure”
+        - what is their highest education background?  answer options: “Did not complete high school”, “High School diploma”, “Bachelor’s Degree”, “Masters Degree”, “PhD”, “Unknown”
+        - what is their country of birth? Only give the country name
+        - What got them to being a billionaire? Give a one word answer such as - inheritance, entrepreneurship, Acting, Athlete, other...?
+   - **Output file**- [GPTEnriched](/BillionairesGPTEnriched.csv)
