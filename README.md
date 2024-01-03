@@ -6,7 +6,7 @@ Brief Description of the Project
 - Currently, I'm in the process of data cleaning and preparation for analysis. Updates on this project will be posted regularly.
 
 
-**Stage 1: Data Gathering and Cleansing**
+## Stage 1: Data Gathering and Cleansing**
 
 Key Activities
 
@@ -18,7 +18,7 @@ Key Activities
       - Converting unstructured Wikipedia data into a format suitable for analysis
 
 
-Steps to Data Gathering and Cleansing
+### Steps to Data Gathering and Cleansing
 
 1. Initial Dataset
    -Sourced from Forbes [Billionaire Evolution 1997 - 2023](https://www.gigasheet.com/sample-data/forbes-billionaires-evolution-1997-2023)
